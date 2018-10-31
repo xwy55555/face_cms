@@ -1,0 +1,63 @@
+.markdown .icons {
+  width: 100%;
+}
+ul.anticonsList {
+  margin: 20px 0;
+  list-style: none;
+  //overflow: hidden;
+}
+ul.anticonsList li {
+  float: left;
+  width: 16.66%;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  height: 70px;
+  color: #555;
+  transition: all 0.2s ease;
+  position: relative;
+  margin: 3px 0;
+  border-radius: 4px;
+  background-color: #fff;
+  //overflow: hidden;
+  padding: 5px 0 0 0;
+}
+ul.anticonsList li:hover {
+  background-color: #eaf8fe;
+}
+ul.anticonsList li.copied:hover {
+  color: rgba(255,255,255,0.2);
+}
+ul.anticonsList li:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "Copied!";
+  text-align: center;
+  line-height: 110px;
+  color: #2db7f5;
+  transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  opacity: 0;
+}
+ul.anticonsList li.copied:after {
+  opacity: 1;
+  top: -10px;
+}
+.anticon {
+  font-size: 18px;
+  margin: 8px 0 8px;
+  transition: all .3s;
+}
+ul.anticonsList li:hover .anticon {
+  transform: scale(1.4);
+}
+.anticonClass {
+  display: block;
+  text-align: center;
+  transform: scale(0.83);
+  font-family: Consolas;
+  font-size: 14px;
+  white-space: nowrap;
+}
