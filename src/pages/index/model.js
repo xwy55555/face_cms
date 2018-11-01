@@ -1,6 +1,6 @@
 import { parse } from 'qs';
 import { routerRedux } from 'dva/router';
-import * as projectUtil from '../../../utils/rbacProjectUtil';
+import * as projectUtil from '../../utils/rbacProjectUtil';
 
 export default {
   namespace: 'index',

@@ -1,6 +1,6 @@
-import * as projectAuth from '../../../utils/rbacProjectAuth';
-import * as projectApi from '../../../utils/rbacProjectApi';
-import * as projectUtil from '../../../utils/rbacProjectUtil';
+import * as projectAuth from '../../utils/rbacProjectAuth';
+import * as projectApi from '../../utils/rbacProjectApi';
+import * as projectUtil from '../../utils/rbacProjectUtil';
 
 /**
  * 用户登录

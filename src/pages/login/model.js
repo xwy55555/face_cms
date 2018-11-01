@@ -1,10 +1,10 @@
-import { getProjectInfo } from '../../../services/systemConfig';
-import { loginByAccount } from '../services/service';
+import { getProjectInfo } from '../../services/systemConfig';
+import { loginByAccount } from './service';
 import { parse } from 'qs';
 import { message } from 'antd';
 import { routerRedux } from 'dva/router';
-import * as projectConstant from '../../../utils/rbacProjectConstant'
-import * as projectUtil from '../../../utils/rbacProjectUtil';
+import * as projectConstant from '../../utils/rbacProjectConstant'
+import * as projectUtil from '../../utils/rbacProjectUtil';
 
 export default {
   namespace: 'userLogin',
